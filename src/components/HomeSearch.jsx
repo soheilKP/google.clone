@@ -13,7 +13,7 @@ const HomeSearch = () => {
   function handleSubmit(e) {
     e.preventDefault();
     if (!input.trim()) return;
-    router.push(`/search?searchTerm=${input}`);
+    router.push(`/search/web?searchTerm=${input}`);
   }
 
   async function randomSearch() {
